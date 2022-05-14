@@ -82,7 +82,7 @@ function App() {
               return <option key={index} value={currency} />;
             })}
           </datalist>
-          <label htmlFor="curr-out">Which currency do need?</label>
+          <label htmlFor="curr-out">Which currency do you need?</label>
           <input list="out" id="curr-out" name="currOut" />
           <datalist id="out">
             {currencies.map((currency, index) => {
